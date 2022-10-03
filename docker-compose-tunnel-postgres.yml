@@ -1,0 +1,31 @@
+version: "2.1"
+services:
+  bastion:
+    image: ghcr.io/linuxserver/openssh-server
+    container_name: bastion
+    hostname: bastion
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - USER_NAME=ubuntu
+    volumes:
+      - ./config/bastion:/config
+    ports:
+      - 2222:2222
+  bastion-single-try:
+    image: ghcr.io/linuxserver/openssh-server
+    container_name: bastion-single-try
+    hostname: bastion
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - USER_NAME=ubuntu
+    volumes:
+      - ./config/destination-single-try:/config
+    ports:
+      - 2223:2222
+  postgres:
+    image: postgres:9-stretch
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: test
