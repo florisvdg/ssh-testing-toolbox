@@ -1,0 +1,6 @@
+!config/*/ssh_host_keys/
+config/*/ssh_host_keys/*
+!config/*/ssh_host_keys/sshd_config
+
+config/*/logs
+config/*/*.*
