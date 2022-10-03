@@ -1,0 +1,53 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+# Distributed revision control system
+brew "git"
+# Simple terminal UI for git commands
+brew "lazygit"
+# OpenBSD freely-licensed SSH connectivity tools
+brew "openssh"
+# Tool to build, change, and version infrastructure
+brew "terraform"
+# GPU-accelerated terminal emulator
+cask "alacritty"
+# Server and cloud storage browser
+cask "cyberduck"
+# Databases & SQL IDE
+cask "datagrip"
+# GIT client
+cask "fork"
+# Finder replacement and FTP, SFTP, WebDAV and Amazon s3 client
+cask "forklift"
+# Git client
+cask "gitfox"
+# Git interface focused on visual interaction
+cask "gitup"
+# Native code editor
+cask "nova"
+# Desktop client for GitHub repositories
+cask "github"
+# Git client focusing on productivity
+cask "gitkraken"
+# Go (golang) IDE
+cask "goland"
+# Terminal built on web technologies
+cask "hyper"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+# GUI client for PostgreSQL databases
+cask "postico"
+# MySQL/MariaDB database management
+cask "sequel-ace"
+# Terminal emulator, SSH and serial client
+cask "tabby"
+# Native GUI tool for relational databases
+cask "tableplus"
+# Git client focusing on power and productivity
+cask "tower"
+# File transfer application
+cask "transmit"
+# Open-source code editor
+cask "visual-studio-code"
+# Rust-based terminal
+cask "warp"
