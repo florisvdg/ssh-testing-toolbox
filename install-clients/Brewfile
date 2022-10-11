@@ -39,10 +39,14 @@ cask "iterm2"
 cask "postico"
 # MySQL/MariaDB database management
 cask "sequel-ace"
+# Git client
+cask "sublime-merge"
 # Terminal emulator, SSH and serial client
 cask "tabby"
 # Native GUI tool for relational databases
 cask "tableplus"
+# SSH client
+cask "termius"
 # Git client focusing on power and productivity
 cask "tower"
 # File transfer application
